@@ -194,7 +194,7 @@ has very high locality. Unless specified otherwise, please use the
 first distribution (the default) for all tests. You can use the second
 distribution by specifying a command-line flag:
 ```bash
-./listrank 100000000 3 1
+./serial 100000000 3 1
 ```
 where the third argument sets the distribution flag to 1.
 
