@@ -26,7 +26,8 @@ We have put all of the questions in quotes, e.g.:
 
 There are 100 points in total.
 - 10 points: auto-graded tests to verify correctness, but not efficiency
-- 40 points: code satisfying the required work/depth bounds
+- 40 points: code satisfying the required work/depth bounds, breakdown
+  as follows:
   - 10 points: scan code
   - 15 points: wyllie code
   - 15 points: sampling-based code
