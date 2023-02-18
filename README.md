@@ -9,13 +9,15 @@ primitive. These primitives can be found in their respective
 directories.
 
 The rest of the instructions assume that you have cd'd into a given
-dirctory, and uses reduce as an example.
+directory, and uses reduce as an example.
 
 # Instructions
+Create a new repository by clicking ``Use this template``->``Create a new repository`` and work on that.
 
 ## What you should submit
 
-Please submit a pdf with answers for the questions in this README.
+Please submit your code on Gradescope (you can directly link your github repo). Also,
+please submit a pdf with answers for the questions in this README on Gradescope.
 We have put all of the questions in quotes, e.g.:
 
 > Make sure your UID and name are clearly visible on your submission.
@@ -57,6 +59,16 @@ portable approach (in C++) is
 ```C++
 #include <thread>
 auto num_threads = std::thread::hardware_concurrency();
+```
+
+## Using the Tester
+We have provided a tester (that we used in Gradescope) in case you wanted something to test your code locally. To set it up, cd to the ``tester`` directory and run the following command (assuming you have ``python`` installed):
+```bash
+pip3 install -r requirements.txt
+```
+To run the tester, just run the following command (after cd'ing to the ``tester`` directory):
+```bash
+bash run
 ```
 
 # Reduce

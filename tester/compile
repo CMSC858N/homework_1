@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Prepare submission
+
+cd ../reduce
+make clean
+make MXMAC=1
+
+cd ../scan
+make clean
+make MXMAC=1
+
+cd ../listrank
+make clean
+make MXMAC=1

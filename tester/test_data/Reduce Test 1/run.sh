@@ -1,0 +1,1 @@
+../reduce/reduce 100 1 -t

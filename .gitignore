@@ -1,0 +1,9 @@
+reduce/reduce
+scan/scan
+listrank/serial
+listrank/wyllie
+listrank/sampling
+tester/results
+
+.DS_store
+*.zip
