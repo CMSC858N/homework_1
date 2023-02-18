@@ -22,6 +22,18 @@ We have put all of the questions in quotes, e.g.:
 
 > Make sure your UID and name are clearly visible on your submission.
 
+## Grading
+
+There are 100 points in total.
+- 10 points: auto-graded tests to verify correctness, but not efficiency
+- 40 points: code satisfying the required work/depth bounds
+  - 10 points: scan code
+  - 15 points: wyllie code
+  - 15 points: sampling-based code
+- 20 points: writeup for reduce
+- 15 points: writeup for scan
+- 15 points: writeup for list-ranking
+
 ## Can you refer to material online?
 
 Yes! Please go ahead. Just don't blindly copy code. If you found some
